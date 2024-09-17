@@ -44,7 +44,7 @@ ORDER BY salary DESC;
 
 -- Find the top 3 highest paid employees
 SELECT * FROM employees
-ORDER BY salary ASC
+ORDER BY salary DESC
 LIMIT 3;
 
 -- Find all unique department you have
